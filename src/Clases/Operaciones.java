@@ -25,9 +25,21 @@ public class Operaciones {
     public int sumar(){
        return valor1+valor2;
     }
+    public int restar(){
+       return valor1-valor2;
+    }
+    public int multiplicar(){
+       return valor1*valor2;
+    }
+    public int dividir(){
+       return valor1/valor2;
+    }
   
     public void imprimir(){
         System.out.println("la suma es : "+sumar());
+        System.out.println("la resta es : "+restar());
+        System.out.println("la multiplicacion es : "+multiplicar());
+        System.out.println("la divicion es : "+dividir());
     } 
 }
 /*public int restar(){
